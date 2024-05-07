@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify clone</title>
+    <link rel="stylesheet" href="spotify.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand" ><img alt="Spotify"src="Images/spotify-logo2.jpg">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+
+    <div class="container"><!--where the main content will be-->
+      <div class="songlist">
+        <h1 class="songlist-heading">Spotify:Songs like no other</h1>
+        <div>
+            <div class="song-item">
+               <img class=song-item-img  src="Images/ed-3.jpg">
+               <span class="song-name">Shape of You</span>
+               <span class="songListplay"><span class="timestamp">05.34 <i id="0" class="fa-regular fa-circle-play individual-play"></i> </span></span>
+            </div>
+
+            <div class="song-item">
+               <img class=song-item-img src="Images/ed-3.jpg">
+               <span class="song-name">Shape of You</span>
+               <span class="songListplay"><span class="timestamp">05.34 <i id="1"class="fa-regular fa-circle-play individual-play"></i> </span></span>
+            </div>
+
+
+            <div class="song-item">
+               <img class=song-item-img src="Images/ed-3.jpg">
+               <span class="song-name">Shape of You</span>
+               <span class="songListplay"><span class="timestamp">05.34 <i id="2"class="fa-regular fa-circle-play individual-play"></i> </span></span>
+            </div>
+
+
+            <div class="song-item">
+               <img class=song-item-img src="Images/ed-3.jpg">
+               <span class="song-name">Shape of You</span>
+               <span class="songListplay"><span class="timestamp">05.34 <i id="3"class="fa-regular fa-circle-play individual-play"></i> </span></span>
+            </div>
+
+
+            <div class="song-item">
+               <img class=song-item-img src="Images/ed-3.jpg">
+               <span class="song-name">Shape of You</span>
+               <span class="songListplay"><span class="timestamp">05.34 <i id="4"class="fa-regular fa-circle-play individual-play"></i> </span></span>
+            </div>
+
+
+
+            <div class="song-item">
+               <img class=song-item-img src="Images/ed-3.jpg">
+               <span class="song-name">Shape of You</span>
+               <span class="songListplay"><span class="timestamp">05.34 <i id="5"class="fa-regular fa-circle-play individual-play "></i> </span></span>
+            </div>
+
+
+            <div class="song-item">
+               <img class=song-item-img src="Images/ed-3.jpg">
+               <span class="song-name">Shape of You</span>
+               <span class="songListplay"><span class="timestamp">05.34 <i id="6"class="fa-regular fa-circle-play individual-play "></i> </span></span>
+            </div>
+        </div>
+      </div>
+    
+       <div class="Banner"></div>
+    </div>
+
+    <div class="bottom"><!--the play strip at the bottom-->
+        <input type="range" name="range" class="myprogressbar" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward-step fa-3x previous"></i>
+            <i class="fa-regular fa-circle-play fa-3x masterplay"></i>
+            <i class="fa-solid fa-forward-step  fa-3x  next"></i>
+        </div>
+
+        <div class="song-info">
+           <img class="gif" src="Images/tenor.gif" width="40px" ><span class="masterSong"></span>
+        </div>
+
+
+    </div>
+
+    <script src="spotify.js"></script>
+    <script src="https://kit.fontawesome.com/73ecbe9f1e.js" crossorigin="anonymous"></script>
+
+
+    
+</body>
+</html>
